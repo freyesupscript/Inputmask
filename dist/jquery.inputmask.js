@@ -10,7 +10,7 @@
         var i = "object" == typeof exports ? t(require("jquery")) : t(e.jQuery);
         for (var a in i) ("object" == typeof exports ? exports : e)[a] = i[a];
     }
-}(self || this, (function(e) {
+}(this, (function(e) {
     return function() {
         "use strict";
         var t = {
